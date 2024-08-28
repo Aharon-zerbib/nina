@@ -9,9 +9,8 @@
     </title>
     <meta
       name="description"
-      content="Découvrez le portfolio de Nina Carducci, photographe professionnelle spécialisée dans les portraits, mariages, et événements en Île-de-France. Capturez vos moments les plus précieux avec des photos uniques et inoubliables."
+      content="Photographe professionnelle basée en Île-de-France, spécialisée dans les portraits, mariages et événements. Capturez vos souvenirs les plus précieux avec des photos uniques et personnalisées. Je vous propose des shootings sur mesure, des retouches d'images et la création d'albums photo."
     />
-
     <!-- Balises Open Graph pour le partage sur les réseaux sociaux -->
 
     <meta
@@ -29,22 +28,6 @@
     <meta property="og:url" content="https://yourwebsite.com" />
     <meta property="og:type" content="website" />
 
-    <!-- Balises Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Photographe Nina Carducci - Portraits, Mariages et Événements"
-    />
-    <meta
-      name="twitter:description"
-      content="Découvrez le portfolio de Nina Carducci, photographe en Île-de-France."
-    />
-    <meta
-      name="twitter:image"
-      content="https://yourwebsite.com/assets/images/og-image.jpg"
-    />
-
-    <!-- Lien vers les feuilles de style CSS -->
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
 
@@ -115,21 +98,21 @@
             <img
               src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="Image de carousel 1"
             />
           </div>
           <div class="carousel-item">
             <img
               src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="Image de carousel 2"
             />
           </div>
           <div class="carousel-item">
             <img
               src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg"
               class="d-block w-100"
-              alt="..."
+              alt="Image de carousel 3"
             />
           </div>
         </div>
@@ -155,7 +138,11 @@
     </div>
     <div id="about">
       <div class="picture left">
-        <img src="./assets/images/nina.png" />
+        <img
+          src="./assets/images/nina.png"
+          loading="lazy"
+          alt="Nina Carducci"
+        />
       </div>
       <div id="about-me">
         <h3 class="about-me__title">A propos de moi</h3>
@@ -176,73 +163,92 @@
         </p>
       </div>
     </div>
-    <div id="gallery">
-      <h3 class="title">Portfolio</h3>
+    <section id="gallery">
+      <h2 class="title">Portfolio</h2>
       <div class="container py-3">
         <div class="gallery" style="display: none">
           <img
             data-gallery-tag="Concert"
             class="gallery-item"
-            src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash (1).jpg"
+            src="./assets/images/gallery/concerts/aaron-paul-min.webp"
+            loading="lazy"
+            alt="Concert"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash (1).jpg"
+            src="./assets/images/gallery/entreprise/ali-morshedlou-min.webp"
+            loading="lazy"
+            alt="Entreprise"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash (1).jpg"
+            src="./assets/images/gallery/entreprise/jason-goodman-min.webp"
+            loading="lazy"
+            alt="Entreprise"
           />
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
-            src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash (1).jpg"
+            src="./assets/images/gallery/mariage/hannah-busing-min.webp"
+            loading="lazy"
+            alt="Mariage"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
-            src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash (1).jpg"
+            src="./assets/images/gallery/portraits/ade-tunji-min.webp"
+            loading="lazy"
+            alt="Portrait"
           />
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
-            src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash (1).jpg"
+            src="./assets/images/gallery/mariage/jakob-owens-min.webp"
+            loading="lazy"
+            alt="Mariage"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
-            src="./assets/images/gallery/portraits/nino-van-prattenburg - 443cl1uR_8-unsplash.jpg"
+            src="./assets/images/gallery/portraits/nino-van-prattenburg-min.webp"
+            loading="lazy"
+            alt="Portrait"
           />
           <img
             data-gallery-tag="Concert"
             class="gallery-item"
-            src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg"
+            src="./assets/images/gallery/concerts/austin-neill-min.webp"
+            loading="lazy"
+            alt="Concert"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash (1).jpg"
+            src="./assets/images/gallery/entreprise/mateus-campos-min.webp"
+            loading="lazy"
+            alt="Entreprise"
           />
         </div>
       </div>
       <div class="quote">
         <figure>
           <blockquote>
-            <h1 class="quote__text">
+            <h2 class="quote__text">
               Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou
               qu’un fait est traduit en photo, il cesse d’être un fait pour
               devenir une opinion. L’inexactitude n’existe pas en photographie.
               Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
-            </h1>
+            </h2>
           </blockquote>
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
       </div>
-    </div>
-    <div id="services">
-      <h3 class="title">Mes services</h3>
+    </section>
+
+    <section id="services">
+      <h2 class="title">Mes services</h2>
       <div class="container">
         <div class="service">
           <div class="service__description">
@@ -250,11 +256,11 @@
             <p>
               Pour capturer vos moments les plus précieux et garder un souvenir
               impérissable. Je me déplace en Île-de-France pour réaliser vos
-              photos
+              photos.
             </p>
           </div>
           <div class="service__price">
-            <h4>350€/demi journée</h4>
+            <h4>350€/demi-journée</h4>
             <span>Matériel, déplacement inclus</span>
           </div>
         </div>
@@ -263,7 +269,7 @@
             <h3>Retouches</h3>
             <p>
               Vous souhaitez retoucher vos photos pour un résultat professionnel
-              ? Bénéficier d’un rendu optimal pour vos publications
+              ? Bénéficier d’un rendu optimal pour vos publications.
             </p>
           </div>
           <div class="service__price">
@@ -276,7 +282,7 @@
             <h3>Album photos</h3>
             <p>
               Partagez avec vos proches et vos clients les photos des moments
-              partagés ensemble à travers un album photo personnalisé
+              partagés ensemble à travers un album photo personnalisé.
             </p>
           </div>
           <div class="service__price">
@@ -285,25 +291,27 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="quote">
+    </section>
+
+    <section class="quote">
       <figure>
         <blockquote>
-          <h1 class="quote__text">
+          <h2 class="quote__text">
             De manière inconsciente, je crois, je guette un regard, une
             expression, des traits ou une nostalgie capable de résumer ou plus
-            exactement de révéler une vie
-          </h1>
+            exactement de révéler une vie.
+          </h2>
         </blockquote>
         <figcaption class="quote__author">- Richard Avedon</figcaption>
       </figure>
-    </div>
+    </section>
     <div id="contact">
       <div class="container">
         <div class="form-container">
           <h3>Une question ? Une demande de devis ?</h3>
           <p>
-            N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
+            N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24
+            heures+-
           </p>
           <form action="" method="post">
             <label>Nom</label>
