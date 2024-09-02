@@ -49,6 +49,80 @@ body {
   font-family: Inter;
   font-style: normal;
 }
+/* Styles pour les appareils avec une largeur maximale de 768px (tablettes et mobiles) */
+@media (max-width: 768px) {
+  .top-header {
+    padding-inline: 20px;
+    padding-block: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .top-header .name {
+    font-size: 20px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav li {
+    padding-inline: 0;
+    padding-block: 5px;
+  }
+
+  body {
+    margin: 0 10px;
+  }
+
+  #about,
+  #contact,
+  #services,
+  .item-column {
+    padding: 10px;
+  }
+
+  .service {
+    flex-direction: column;
+  }
+
+  form {
+    flex-direction: column;
+  }
+}
+
+/* Styles pour les appareils avec une largeur maximale de 480px (mobiles) */
+@media (max-width: 480px) {
+  .top-header {
+    padding-inline: 10px;
+    padding-block: 10px;
+  }
+
+  .top-header .name {
+    font-size: 18px;
+  }
+
+  .nav ul {
+    font-size: 12px;
+  }
+
+  .nav a {
+    padding: 5px 0;
+  }
+
+  body {
+    margin: 0 5px;
+  }
+
+  #about,
+  #contact,
+  #services,
+  .item-column {
+    padding: 5px;
+  }
+}
+
 .top-header {
   position: sticky;
   top: 0;
