@@ -11,23 +11,40 @@
       name="description"
       content="Photographe professionnelle basée en Île-de-France, spécialisée dans les portraits, mariages et événements. Capturez vos souvenirs les plus précieux avec des photos uniques et personnalisées. Je vous propose des shootings sur mesure, des retouches d'images et la création d'albums photo."
     />
-    <!-- Balises Open Graph pour le partage sur les réseaux sociaux -->
+
+    <!-- Facebook  -->
 
     <meta
+      property="og:url"
+      content="nina-ia2xqtspf-aharons-projects-68e6cbcd.vercel.app"
+    />
+    <meta property="og:type" content="website" />
+    <meta
       property="og:title"
-      content="Photographe Nina Carducci - Portraits, Mariages et Événements"
+      content="Nina Carducci - Photographe Professionnelle à Bordeaux"
     />
     <meta
       property="og:description"
-      content="Découvrez les services de Nina Carducci, photographe spécialisée dans les portraits et mariages en Île-de-France."
+      content="Photographe professionnelle, je vous propose de saisir vos moments les plus précieux et de les rendre immortels."
+    />
+
+    <!-- Twitter  -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="nina-carducci-one.vercel.app" />
+    <meta
+      property="twitter:url"
+      content="nina-ia2xqtspf-aharons-projects-68e6cbcd.vercel.app"
     />
     <meta
-      property="og:image"
-      content="https://yourwebsite.com/assets/images/og-image.jpg"
+      name="twitter:title"
+      content="Nina Carducci - Photographe Professionnelle à Bordeaux"
     />
-    <meta property="og:url" content="https://yourwebsite.com" />
-    <meta property="og:type" content="website" />
+    <meta
+      name="twitter:description"
+      content="Photographe professionnelle, je vous propose de saisir vos moments les plus précieux et de les rendre immortels."
+    />
 
+    <!--Lien vers bosstrap Cdn et css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -43,11 +60,12 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-    <!--La je doit metre Shema.org-->
+    <!-- Shema.org pour micro donner-->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "telephone": "05 56 67 78 89",
+        "url":"nina-ia2xqtspf-aharons-projects-68e6cbcd.vercel.app"
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "68 avenue Alsace-Lorraine",
@@ -375,16 +393,12 @@
 
     <!-- Scripts -->
     <script
+      defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./assets/maugallery.js"></script>
-    <script src="./assets/scripts.js"></script>
+    <script defer src="./assets/maugallery.js"></script>
+    <script defer src="./assets/scripts.js"></script>
   </body>
 </html>
