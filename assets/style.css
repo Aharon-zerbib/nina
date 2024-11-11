@@ -288,21 +288,41 @@ input[type="submit"] {
   background-color: #beb45a;
   padding: 0.5em 1em;
 }
-@media all and (max-width: 1180px) {
-  .picture {
-    flex: 2;
+@media all and (max-width: 650px) {
+  .top-header {
+    flex-direction: column;
+    padding-inline: 0;
   }
-  #about,
-  #contact .container {
+  .top-header .nav,
+  .top-header .nav ul {
+    width: 100%;
+    padding: 0;
+  }
+  .top-header .nav li {
+    flex: 1;
+    padding-block: 1em;
+    text-align: center;
+  }
+  .picture.left::before,
+  .picture.right::before {
+    height: 150px;
+  }
+  #services .container {
     align-items: center;
   }
-  .about-me__title {
-    margin-top: 0;
-    margin-bottom: 1em;
+  .service {
+    max-width: 90%;
   }
-  #about-me h6,
-  #about-me p {
+  #about,
+  #contact {
+    padding-inline: 2em;
+    padding-block: 2em;
+  }
+  form {
     width: 100%;
+  }
+  .picture {
+    width: 80%;
   }
 }
 @media all and (max-width: 1000px) {
@@ -355,40 +375,21 @@ input[type="submit"] {
     right: 0;
   }
 }
-@media all and (max-width: 650px) {
-  .top-header {
-    flex-direction: column;
-    padding-inline: 0;
-  }
-  .top-header .nav,
-  .top-header .nav ul {
-    width: 100%;
-    padding: 0;
-  }
-  .top-header .nav li {
-    flex: 1;
-    padding-block: 1em;
-    text-align: center;
-  }
-  .picture.left::before,
-  .picture.right::before {
-    height: 150px;
-  }
-  #services .container {
-    align-items: center;
-  }
-  .service {
-    max-width: 90%;
+
+@media all and (max-width: 1180px) {
+  .picture {
+    flex: 2;
   }
   #about,
-  #contact {
-    padding-inline: 2em;
-    padding-block: 2em;
+  #contact .container {
+    align-items: center;
   }
-  form {
+  .about-me__title {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  #about-me h6,
+  #about-me p {
     width: 100%;
-  }
-  .picture {
-    width: 80%;
   }
 }
